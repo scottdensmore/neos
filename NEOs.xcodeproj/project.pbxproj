@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE18F0C9293142C10068153E /* NEOsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE18F0C8293142C10068153E /* NEOsApp.swift */; };
+		DE18F0CB293142C10068153E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE18F0CA293142C10068153E /* ContentView.swift */; };
+		DE18F0CD293142C20068153E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE18F0CC293142C20068153E /* Assets.xcassets */; };
+		DE18F0D0293142C20068153E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE18F0CF293142C20068153E /* Preview Assets.xcassets */; };
+		DE18F0DA293142C30068153E /* NEOsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE18F0D9293142C30068153E /* NEOsTests.swift */; };
+		DE18F0E4293142C30068153E /* NEOsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE18F0E3293142C30068153E /* NEOsUITests.swift */; };
+		DE18F0E6293142C30068153E /* NEOsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE18F0E5293142C30068153E /* NEOsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE18F0D6293142C30068153E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE18F0BD293142C10068153E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE18F0C4293142C10068153E;
+			remoteInfo = NEOs;
+		};
+		DE18F0E0293142C30068153E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE18F0BD293142C10068153E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE18F0C4293142C10068153E;
+			remoteInfo = NEOs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE18F0C5293142C10068153E /* NEOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NEOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE18F0C8293142C10068153E /* NEOsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEOsApp.swift; sourceTree = "<group>"; };
+		DE18F0CA293142C10068153E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE18F0CC293142C20068153E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE18F0CF293142C20068153E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE18F0D5293142C30068153E /* NEOsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NEOsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE18F0D9293142C30068153E /* NEOsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEOsTests.swift; sourceTree = "<group>"; };
+		DE18F0DF293142C30068153E /* NEOsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NEOsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE18F0E3293142C30068153E /* NEOsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEOsUITests.swift; sourceTree = "<group>"; };
+		DE18F0E5293142C30068153E /* NEOsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEOsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE18F0C2293142C10068153E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE18F0D2293142C30068153E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE18F0DC293142C30068153E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE18F0BC293142C10068153E = {
+			isa = PBXGroup;
+			children = (
+				DE18F0C7293142C10068153E /* NEOs */,
+				DE18F0D8293142C30068153E /* NEOsTests */,
+				DE18F0E2293142C30068153E /* NEOsUITests */,
+				DE18F0C6293142C10068153E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE18F0C6293142C10068153E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE18F0C5293142C10068153E /* NEOs.app */,
+				DE18F0D5293142C30068153E /* NEOsTests.xctest */,
+				DE18F0DF293142C30068153E /* NEOsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE18F0C7293142C10068153E /* NEOs */ = {
+			isa = PBXGroup;
+			children = (
+				DE18F0C8293142C10068153E /* NEOsApp.swift */,
+				DE18F0CA293142C10068153E /* ContentView.swift */,
+				DE18F0CC293142C20068153E /* Assets.xcassets */,
+				DE18F0CE293142C20068153E /* Preview Content */,
+			);
+			path = NEOs;
+			sourceTree = "<group>";
+		};
+		DE18F0CE293142C20068153E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE18F0CF293142C20068153E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE18F0D8293142C30068153E /* NEOsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE18F0D9293142C30068153E /* NEOsTests.swift */,
+			);
+			path = NEOsTests;
+			sourceTree = "<group>";
+		};
+		DE18F0E2293142C30068153E /* NEOsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE18F0E3293142C30068153E /* NEOsUITests.swift */,
+				DE18F0E5293142C30068153E /* NEOsUITestsLaunchTests.swift */,
+			);
+			path = NEOsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE18F0C4293142C10068153E /* NEOs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE18F0E9293142C30068153E /* Build configuration list for PBXNativeTarget "NEOs" */;
+			buildPhases = (
+				DE18F0C1293142C10068153E /* Sources */,
+				DE18F0C2293142C10068153E /* Frameworks */,
+				DE18F0C3293142C10068153E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NEOs;
+			productName = NEOs;
+			productReference = DE18F0C5293142C10068153E /* NEOs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE18F0D4293142C30068153E /* NEOsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE18F0EC293142C30068153E /* Build configuration list for PBXNativeTarget "NEOsTests" */;
+			buildPhases = (
+				DE18F0D1293142C30068153E /* Sources */,
+				DE18F0D2293142C30068153E /* Frameworks */,
+				DE18F0D3293142C30068153E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE18F0D7293142C30068153E /* PBXTargetDependency */,
+			);
+			name = NEOsTests;
+			productName = NEOsTests;
+			productReference = DE18F0D5293142C30068153E /* NEOsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE18F0DE293142C30068153E /* NEOsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE18F0EF293142C30068153E /* Build configuration list for PBXNativeTarget "NEOsUITests" */;
+			buildPhases = (
+				DE18F0DB293142C30068153E /* Sources */,
+				DE18F0DC293142C30068153E /* Frameworks */,
+				DE18F0DD293142C30068153E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE18F0E1293142C30068153E /* PBXTargetDependency */,
+			);
+			name = NEOsUITests;
+			productName = NEOsUITests;
+			productReference = DE18F0DF293142C30068153E /* NEOsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE18F0BD293142C10068153E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					DE18F0C4293142C10068153E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					DE18F0D4293142C30068153E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = DE18F0C4293142C10068153E;
+					};
+					DE18F0DE293142C30068153E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = DE18F0C4293142C10068153E;
+					};
+				};
+			};
+			buildConfigurationList = DE18F0C0293142C10068153E /* Build configuration list for PBXProject "NEOs" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE18F0BC293142C10068153E;
+			productRefGroup = DE18F0C6293142C10068153E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE18F0C4293142C10068153E /* NEOs */,
+				DE18F0D4293142C30068153E /* NEOsTests */,
+				DE18F0DE293142C30068153E /* NEOsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE18F0C3293142C10068153E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE18F0D0293142C20068153E /* Preview Assets.xcassets in Resources */,
+				DE18F0CD293142C20068153E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE18F0D3293142C30068153E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE18F0DD293142C30068153E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE18F0C1293142C10068153E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE18F0CB293142C10068153E /* ContentView.swift in Sources */,
+				DE18F0C9293142C10068153E /* NEOsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE18F0D1293142C30068153E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE18F0DA293142C30068153E /* NEOsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE18F0DB293142C30068153E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE18F0E4293142C30068153E /* NEOsUITests.swift in Sources */,
+				DE18F0E6293142C30068153E /* NEOsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE18F0D7293142C30068153E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE18F0C4293142C10068153E /* NEOs */;
+			targetProxy = DE18F0D6293142C30068153E /* PBXContainerItemProxy */;
+		};
+		DE18F0E1293142C30068153E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE18F0C4293142C10068153E /* NEOs */;
+			targetProxy = DE18F0E0293142C30068153E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE18F0E7293142C30068153E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE18F0E8293142C30068153E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE18F0EA293142C30068153E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NEOs/Preview Content\"";
+				DEVELOPMENT_TEAM = 27ZDER873F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottdensmore.NEOs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE18F0EB293142C30068153E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NEOs/Preview Content\"";
+				DEVELOPMENT_TEAM = 27ZDER873F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottdensmore.NEOs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE18F0ED293142C30068153E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27ZDER873F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottdensmore.NEOsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NEOs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NEOs";
+			};
+			name = Debug;
+		};
+		DE18F0EE293142C30068153E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27ZDER873F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottdensmore.NEOsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NEOs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NEOs";
+			};
+			name = Release;
+		};
+		DE18F0F0293142C30068153E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27ZDER873F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottdensmore.NEOsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NEOs;
+			};
+			name = Debug;
+		};
+		DE18F0F1293142C30068153E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27ZDER873F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottdensmore.NEOsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NEOs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE18F0C0293142C10068153E /* Build configuration list for PBXProject "NEOs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE18F0E7293142C30068153E /* Debug */,
+				DE18F0E8293142C30068153E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE18F0E9293142C30068153E /* Build configuration list for PBXNativeTarget "NEOs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE18F0EA293142C30068153E /* Debug */,
+				DE18F0EB293142C30068153E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE18F0EC293142C30068153E /* Build configuration list for PBXNativeTarget "NEOsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE18F0ED293142C30068153E /* Debug */,
+				DE18F0EE293142C30068153E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE18F0EF293142C30068153E /* Build configuration list for PBXNativeTarget "NEOsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE18F0F0293142C30068153E /* Debug */,
+				DE18F0F1293142C30068153E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE18F0BD293142C10068153E /* Project object */;
+}
