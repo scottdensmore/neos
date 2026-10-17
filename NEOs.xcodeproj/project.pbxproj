@@ -14,6 +14,9 @@
 		DE18F0DA293142C30068153E /* NEOsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE18F0D9293142C30068153E /* NEOsTests.swift */; };
 		DE18F0E4293142C30068153E /* NEOsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE18F0E3293142C30068153E /* NEOsUITests.swift */; };
 		DE18F0E6293142C30068153E /* NEOsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE18F0E5293142C30068153E /* NEOsUITestsLaunchTests.swift */; };
+		DE18F0F32931442C0068153E /* NEOsConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DE18F0F22931442C0068153E /* NEOsConfig.xcconfig */; };
+		DE8587CD293198E500109A82 /* OrbitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8587CC293198E500109A82 /* OrbitView.swift */; };
+		DE8C18AE2931A70B00CD4F82 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8C18AD2931A70B00CD4F82 /* PageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		DE18F0DF293142C30068153E /* NEOsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NEOsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE18F0E3293142C30068153E /* NEOsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEOsUITests.swift; sourceTree = "<group>"; };
 		DE18F0E5293142C30068153E /* NEOsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEOsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE18F0F22931442C0068153E /* NEOsConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = NEOsConfig.xcconfig; sourceTree = "<group>"; };
+		DE8587CC293198E500109A82 /* OrbitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitView.swift; sourceTree = "<group>"; };
+		DE8C18AD2931A70B00CD4F82 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +101,12 @@
 			isa = PBXGroup;
 			children = (
 				DE18F0C8293142C10068153E /* NEOsApp.swift */,
+				DE8587CC293198E500109A82 /* OrbitView.swift */,
 				DE18F0CA293142C10068153E /* ContentView.swift */,
+				DE18F0F22931442C0068153E /* NEOsConfig.xcconfig */,
 				DE18F0CC293142C20068153E /* Assets.xcassets */,
 				DE18F0CE293142C20068153E /* Preview Content */,
+				DE8C18AD2931A70B00CD4F82 /* PageView.swift */,
 			);
 			path = NEOs;
 			sourceTree = "<group>";
@@ -232,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE18F0D0293142C20068153E /* Preview Assets.xcassets in Resources */,
+				DE18F0F32931442C0068153E /* NEOsConfig.xcconfig in Resources */,
 				DE18F0CD293142C20068153E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE8587CD293198E500109A82 /* OrbitView.swift in Sources */,
+				DE8C18AE2931A70B00CD4F82 /* PageView.swift in Sources */,
 				DE18F0CB293142C10068153E /* ContentView.swift in Sources */,
 				DE18F0C9293142C10068153E /* NEOsApp.swift in Sources */,
 			);
