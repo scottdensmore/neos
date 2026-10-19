@@ -51,6 +51,8 @@ jobs:
           with open(os.environ["GITHUB_OUTPUT"], "a") as output:
               output.write("udid=" + udid + "\n")
           PYCODE
+      - name: Wait for the selected simulator to finish booting
+        run: xcrun simctl bootstatus '${{ steps.simulator.outputs.udid }}' -b
       - name: Compile unsigned Release
         if: matrix.family == 'iPhone'
         run: |
